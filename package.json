@@ -1,0 +1,23 @@
+{
+  "name": "Q8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.2",
+    "colors": "^1.1.2",
+    "email-validator": "^1.0.7",
+    "express": "^4.15.3",
+    "pg": "^6.2.3",
+    "pg-promise": "^5.8.1",
+    "rfc822-validate": "^1.0.0"
+  }
+}
