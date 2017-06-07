@@ -14,8 +14,12 @@
     "bcrypt": "^1.0.2",
     "body-parser": "^1.17.2",
     "colors": "^1.1.2",
+    "cookie": "^0.3.1",
+    "dotenv": "^4.0.0",
     "email-validator": "^1.0.7",
     "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "netcat": "0.0.2",
     "pg": "^6.2.3",
     "pg-promise": "^5.8.1",
     "rfc822-validate": "^1.0.0"
