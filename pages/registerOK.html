@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>註冊成功！</title>
+        <link rel="stylesheet" href="/lib/sweetalert/dist/sweetalert.css">
+    </head>
+
+    <body>
+
+        <script src="/lib/sweetalert/dist/sweetalert.min.js"></script>
+        <script>
+            setTimeout(()=>{
+                swal({
+                    title: "恭喜你！",
+                    text: "你註冊成功了，快試試登入吧！",
+                    type: "success",
+                    confirmButtonText: "回首頁",
+                },
+                function(){
+                    window.open('../', '_self')
+                });
+            }, 900)
+        </script>
+    </body>
+
+</html>
